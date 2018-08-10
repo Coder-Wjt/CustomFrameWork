@@ -1,5 +1,5 @@
-#ifndef __SYSTEMINFO_H__
-#define __SYSTEMINFO_H__
+#ifndef __SYSTEMINFOTOOL_H__
+#define __SYSTEMINFOTOOL_H__
 
 #include "Definition.h"
 
@@ -18,4 +18,4 @@ CINTERFACEAPI void GetSystemHostName(char* HostName);
 //获取电脑IP
 CINTERFACEAPI void GetSystemHostIP(char* IP);
 
-#endif // !__SYSTEMINFO_H__
+#endif // !__SYSTEMINFOTOOL_H__
